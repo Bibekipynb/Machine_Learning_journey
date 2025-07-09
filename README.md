@@ -17,4 +17,3 @@ A few months ago, I completed the **Machine Learning Specialization** course. No
 
 ---
 
-## Day 1
