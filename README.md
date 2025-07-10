@@ -16,4 +16,3 @@ A few months ago, I completed the **Machine Learning Specialization** course. No
 | [FastAI: Practical Deep Learning for Coders](https://course.fast.ai/)                      | 🕒 Not Started |
 
 ---
-
