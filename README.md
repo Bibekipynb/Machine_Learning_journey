@@ -16,3 +16,28 @@ A few months ago, I completed the **Machine Learning Specialization** course. No
 | [FastAI: Practical Deep Learning for Coders](https://course.fast.ai/)                      | 🕒 Not Started |
 
 ---
+
+### Day 1
+
+## Machine Learning
+
+# Power Transformer
+
+I learned about power transformer class in Scikit-learn. I basically got to know that in order to train machine learning models our data must have normal distribution so in order to make our data normal, one of the most efficient way it power transformation. I used it practically on a concrete dataset from kaggle. Most of the data were not normally distributed, one of those can be seen below through distplot and QQ-Plot below.
+
+<img width="1150" height="393" alt="image" src="https://github.com/user-attachments/assets/bb4a407e-4b59-4ff6-b41b-df220a05bf64" /> 
+
+I used linear regression model without any transformation first and got the accuracy of ~62% and after using box-coz transformation I got 80% accuracy, however on crossvalidating it was around 46%.
+Later on using 'Yeo-Johnson' my results were better than previous I got 81% accuracy and ~60% on cross-validationg. 
+
+One example before and after the Yeo-Johnson transformation: 
+
+<img width="1662" height="545" alt="image" src="https://github.com/user-attachments/assets/885e85be-d880-4229-ae7e-28b1309891ef" />
+
+
+
+
+
+
+
+
