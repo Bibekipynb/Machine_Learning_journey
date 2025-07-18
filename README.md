@@ -34,6 +34,8 @@ One example before and after the Yeo-Johnson transformation:
 
 <img width="1662" height="545" alt="image" src="https://github.com/user-attachments/assets/885e85be-d880-4229-ae7e-28b1309891ef" />
 
+Next, I learned about Binarizer class in scikit-learn. Sometimes we might neet to map a value greater than a threshold to 1 and lower than that would be zero, in that case we can use this class in order to transform the features. 
+
 
 
 
