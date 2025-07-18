@@ -17,11 +17,11 @@ A few months ago, I completed the **Machine Learning Specialization** course. No
 
 ---
 
-### Day 1
+## Day 1
 
-## Machine Learning
+### Machine Learning
 
-# Power Transformer
+Power Transformer
 
 I learned about power transformer class in Scikit-learn. I basically got to know that in order to train machine learning models our data must have normal distribution so in order to make our data normal, one of the most efficient way it power transformation. I used it practically on a concrete dataset from kaggle. Most of the data were not normally distributed, one of those can be seen below through distplot and QQ-Plot below.
 
