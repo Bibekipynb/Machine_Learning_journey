@@ -19,7 +19,7 @@ A few months ago, I completed the **Machine Learning Specialization** course. No
 
 ## Day 1
 
-### Machine Learning
+### Machine Learning Revision
 
 Power Transformer
 
@@ -36,6 +36,24 @@ One example before and after the Yeo-Johnson transformation:
 
 Next, I learned about Binarizer class in scikit-learn. Sometimes we might neet to map a value greater than a threshold to 1 and lower than that would be zero, in that case we can use this class in order to transform the features. 
 
+### Convolution Neural Network
+
+Object Localization
+
+I learned how objection localization is done. We need bounding boxes which will help the model understand where exactly is the object located in the image.
+
+<img width="1893" height="1079" alt="image" src="https://github.com/user-attachments/assets/a970bccf-1dd7-42cf-8239-28cb477824d5" />
+
+We need output like y = [
+                        Pc (probablity)
+                        bx (x coordinate of the center of the bounding box)
+                        by (y coordinate of the center of the bounding box)
+                        bh (height of the bounding box)
+                        bw (width of the bounding box)
+                        c1 - label 1
+                        c2 - label 2
+                        c3 - label 3
+                        ]
 
 
 
