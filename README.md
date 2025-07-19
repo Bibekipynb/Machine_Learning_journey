@@ -75,7 +75,14 @@ Also learned about how to handel date and time, I learned to use a pandas functi
 
 <img width="558" height="596" alt="image" src="https://github.com/user-attachments/assets/6a636ff3-ada9-40c7-85d1-c29a703bc05c" />     <img width="985" height="621" alt="image" src="https://github.com/user-attachments/assets/b205781f-5d8c-4fe7-a400-813c0fab1f1f" />
 
+## Convolution Neural Network
 
+So today I went deep into understanding how object localization is done, first landmark detection where we use CNN to locate where a certain object is present in the image. And next, about bounding boxes and how we spicify where exactly is the object located. For that, first train model with bounding boxex and with the stride and label it as 1 or 0, and bounding box is created whereever it is true, first the center of the bounding box bx,by and the width and hight of the bounding box. 
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/661af6b9-f130-403e-a589-7532f9e462b0" />
+
+
+We use convolution instead of FC because it gives the prediction for all the regions at once. 
 
 
 
