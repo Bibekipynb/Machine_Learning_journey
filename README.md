@@ -17,11 +17,11 @@ A few months ago, I completed the **Machine Learning Specialization** course. No
 
 ---
 
-## Day 1
+# Day 1
 
-### Machine Learning Revision
+## Machine Learning Revision
 
-Power Transformer
+### Power Transformer
 
 I learned about power transformer class in Scikit-learn. I basically got to know that in order to train machine learning models our data must have normal distribution so in order to make our data normal, one of the most efficient way it power transformation. I used it practically on a concrete dataset from kaggle. Most of the data were not normally distributed, one of those can be seen below through distplot and QQ-Plot below.
 
@@ -54,6 +54,27 @@ We need output like y = [
                         c2 - label 2
                         c3 - label 3
                         ]
+
+---
+
+# Day 2
+
+## Machine Learning Revision
+
+### Handeling Mixed Variables
+
+I started with handeling mixed variables today, where I took a toy data with mainly 2 kinds of problem with mixed variables. Firstly, one with the numeric and caterogical values in same column. For that we can use to_numeric() function in pandas to extract numeric data and make a new column, and for the remaining categorical data we can fillup with the categorical data from the orignal data ( for columns which has NaN values in the new numeric column). Here's an example: 
+
+<img width="1070" height="615" alt="image" src="https://github.com/user-attachments/assets/e1bb9410-4be7-4085-b9ba-a9edf383fd26" />  <img width="1082" height="383" alt="image" src="https://github.com/user-attachments/assets/d2f14baf-2a90-49ba-b20a-b5c627eebff6" />
+
+Next, for the columns where numeric and categorical data we have to seperate both numeric and categorical and put them in a seperate columns. 
+
+<img width="1399" height="645" alt="image" src="https://github.com/user-attachments/assets/fe356990-e980-4109-b885-c62920271dee" />
+
+
+
+
+
 
 
 
