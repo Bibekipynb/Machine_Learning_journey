@@ -71,6 +71,9 @@ Next, for the columns where numeric and categorical data we have to seperate bot
 
 <img width="1399" height="645" alt="image" src="https://github.com/user-attachments/assets/fe356990-e980-4109-b885-c62920271dee" />
 
+Also learned about how to handel date and time, I learned to use a pandas function pd.to_datetime() which allows us to change the object datatype to datetime datatype. It helps us to perform other important operations and extract datas. 
+
+<img width="558" height="596" alt="image" src="https://github.com/user-attachments/assets/6a636ff3-ada9-40c7-85d1-c29a703bc05c" />     <img width="985" height="621" alt="image" src="https://github.com/user-attachments/assets/b205781f-5d8c-4fe7-a400-813c0fab1f1f" />
 
 
 
