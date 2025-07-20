@@ -55,7 +55,7 @@ We need output like y = [
                         c3 - label 3
                         ]
 
----
+
 
 # Day 2
 
@@ -84,6 +84,13 @@ So today I went deep into understanding how object localization is done, first l
 
 We use convolution instead of FC because it gives the prediction for all the regions at once. 
 
+
+
+# Day 2
+
+## Machine Learning Revision
+
+### Handeling Missing data
 
 
 
