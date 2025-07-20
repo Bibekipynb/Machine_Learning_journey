@@ -86,7 +86,7 @@ We use convolution instead of FC because it gives the prediction for all the reg
 
 
 
-# Day 2
+# Day 3
 
 ## Machine Learning Revision
 
