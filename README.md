@@ -92,6 +92,18 @@ We use convolution instead of FC because it gives the prediction for all the reg
 
 ### Handeling Missing data
 
+I learned how we can deal with the missing data, there are several ways to deal with them such as Removing (CCA - Complete Case Analysis), and Imputation. There are other sub-parts of imputation like univariate and multivariate imputation which I will be studying tommorow. 
+
+Today however I learned about a least important topic still useful sometimes, in this method we complete remove the whole row if one value in any of the column is missing and we call it CCA. In order to use this method we need to make sure that the values that are missing are 'completely at random' we cannot do it if top 50 or bottom 50 values are missing. And the other condition is that we generally use this only if upto 5% data is missing (at max). 
+
+<img width="774" height="695" alt="image" src="https://github.com/user-attachments/assets/89db1e4b-c8ad-4bef-8826-4322c76c1bf6" />
+
+Here I used a dataset and performed CCA on one of the column and the red is the orignal data ( slightly on the top ) and blue is after performing CCA. This shows that the data were missing completely at random.
+
+
+
+ 
+
 
 
 
