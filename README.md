@@ -101,6 +101,7 @@ Today however I learned about a least important topic still useful sometimes, in
 Here I used a dataset and performed CCA on one of the column and the red is the orignal data ( slightly on the top ) and blue is after performing CCA. This shows that the data were missing completely at random.
 
 
+# Day 4
 
  
 
