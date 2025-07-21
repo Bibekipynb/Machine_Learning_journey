@@ -103,7 +103,10 @@ Here I used a dataset and performed CCA on one of the column and the red is the 
 
 # Day 4
 
- 
+Today I learned about Insertion over Union (IoU) in object detection. So here I got to know that we have the actual bounding box and the predicted bounding box and the total area of both of the boxes including where they overlap is the Union. And the area where they intersect is intersection. When we divide the area of the intersection with the total area of the bounding box, we get certain number and if greater than 0.5, we consider that true prediction and false otherwise. 
+
+<img width="1899" height="1012" alt="image" src="https://github.com/user-attachments/assets/13a23123-71c4-4005-9054-7a29f8d4af62" />
+
 
 
 
