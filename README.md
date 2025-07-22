@@ -112,6 +112,20 @@ Today I learned about Insertion over Union (IoU) in object detection. So here I 
 
 ## Non-Max Supression
 
+Non-Maximum Suppression (NMS) is a post-processing step in object detection that eliminates redundant bounding boxes for the same object. Object detectors often predict multiple boxes with high overlap—NMS helps by keeping only the most confident one.
+
+<img width="1731" height="968" alt="image" src="https://github.com/user-attachments/assets/b4cfda9b-39b5-43a2-a125-24822b5102b0" />
+
+Steps:
+
+Sort boxes by confidence score.
+
+Select the highest score box.
+
+Remove boxes with high IoU (e.g., > 0.5) with the selected box.
+
+Repeat until no boxes remain.
+
 
 
 
