@@ -108,7 +108,9 @@ Today I learned about Insertion over Union (IoU) in object detection. So here I 
 <img width="1899" height="1012" alt="image" src="https://github.com/user-attachments/assets/13a23123-71c4-4005-9054-7a29f8d4af62" />
 
 
+# Day 5
 
+## Non-Max Supression
 
 
 
