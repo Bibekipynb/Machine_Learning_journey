@@ -128,6 +128,9 @@ Repeat until no boxes remain.
 
 
 
+# Day 6
+
+
 
 
 
