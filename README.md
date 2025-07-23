@@ -130,6 +130,22 @@ Repeat until no boxes remain.
 
 # Day 6
 
+Anchor boxes are predefined bounding boxes with different sizes and aspect ratios used in object detection models like YOLO, SSD, and Faster R-CNN.
+
+They help detect multiple objects of different shapes at the same location.
+
+
+<img width="1746" height="974" alt="image" src="https://github.com/user-attachments/assets/e9626686-ea0c-423c-bc4c-af3c58462e45" />
+
+
+### Key Points:
+- Each grid cell predicts offsets for several anchor boxes.
+- Anchor boxes have fixed sizes (e.g., 1:1, 2:1, 1:2).
+- The model learns to adjust these boxes to match real objects.
+- Useful for handling overlapping and varied-shaped objects.
+
+**Example:**  
+If a grid cell has 3 anchor boxes, it can predict 3 different object candidates at once.
 
 
 
