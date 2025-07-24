@@ -149,4 +149,17 @@ If a grid cell has 3 anchor boxes, it can predict 3 different object candidates 
 
 
 
+# Day 7
+
+
+## YOLO (You Only Look Once)
+
+
+<img width="1102" height="625" alt="image" src="https://github.com/user-attachments/assets/d636da91-4a7d-403b-860b-719032626df9" />
+
+
+YOLO (You Only Look Once) is a real-time object detection algorithm that frames detection as a single regression problem, directly predicting bounding boxes and class probabilities from an input image in one evaluation. It divides the image into a grid, and each grid cell predicts a fixed number of bounding boxes along with confidence scores and class probabilities. Unlike traditional methods that use region proposals followed by classification, YOLO performs both tasks simultaneously, making it extremely fast and suitable for real-time applications. It learns global features of the image, resulting in fewer false positives. However, YOLO can struggle with detecting small or overlapping objects, especially when they fall within the same grid cell. Despite this, its balance of speed and accuracy has made it one of the most widely used object detection algorithms in practice.
+
+
+
 
