@@ -162,4 +162,13 @@ YOLO (You Only Look Once) is a real-time object detection algorithm that frames 
 
 
 
+# Day 8
+
+## Semantic Segmentation with U-Net
+
+U-Net is a convolutional neural network architecture designed for semantic segmentation, where the goal is to classify each pixel of an image into a category. It follows a U-shaped architecture consisting of a contracting path (encoder) that captures context and a symmetric expanding path (decoder) that enables precise localization. Skip connections between encoder and decoder layers help recover spatial information lost during downsampling. Originally developed for biomedical image segmentation, U-Net performs well even with limited data and has become a popular choice for tasks like medical imaging, satellite imagery analysis, and road segmentation. Each output pixel is assigned a class label, resulting in a full-resolution segmentation map.
+
+<img width="1893" height="1001" alt="image" src="https://github.com/user-attachments/assets/6b573cfc-8cf8-4189-bbda-87b3b40a0b4c" />  <img width="1230" height="620" alt="image" src="https://github.com/user-attachments/assets/4238b670-380c-4d6f-b10a-8dd1712b6cb4" />
+
+
 
