@@ -181,3 +181,10 @@ U-Net is a convolutional neural network architecture designed for semantic segme
 
 
 In U-Net, transpose convolutions (also known as deconvolutions or up-convolutions) are used in the expanding path (decoder) to upsample feature maps and recover spatial resolution lost during downsampling. Unlike simple interpolation methods, transpose convolutions are learnable layers that can learn how to upsample in a task-specific way. This allows the network to reconstruct high-resolution output with better precision. Each transpose convolution is typically followed by concatenation with corresponding encoder features via skip connections, enabling the model to combine semantic and spatial information for accurate pixel-wise predictions in semantic segmentation tasks.
+
+
+# Day 10 
+
+
+
+<img width="1322" height="715" alt="image" src="https://github.com/user-attachments/assets/b84c36ee-26f3-44ce-a067-ee4eab871f95" />
