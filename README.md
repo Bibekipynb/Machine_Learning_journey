@@ -183,8 +183,13 @@ U-Net is a convolutional neural network architecture designed for semantic segme
 In U-Net, transpose convolutions (also known as deconvolutions or up-convolutions) are used in the expanding path (decoder) to upsample feature maps and recover spatial resolution lost during downsampling. Unlike simple interpolation methods, transpose convolutions are learnable layers that can learn how to upsample in a task-specific way. This allows the network to reconstruct high-resolution output with better precision. Each transpose convolution is typically followed by concatenation with corresponding encoder features via skip connections, enabling the model to combine semantic and spatial information for accurate pixel-wise predictions in semantic segmentation tasks.
 
 
+
 # Day 10 
 
 
+Face recognition aims to identify or verify individuals from images by comparing facial features. Traditional models require large datasets, but one-shot learning enables recognition using only one example per class. This is achieved using a Siamese Network, which consists of two identical neural networks sharing weights, trained to learn a similarity function rather than classifying directly. Given a pair of images, the network learns to output whether they represent the same person by comparing their feature embeddings. This approach is highly effective in applications like face verification, where collecting many samples per person is impractical.
 
 <img width="1322" height="715" alt="image" src="https://github.com/user-attachments/assets/b84c36ee-26f3-44ce-a067-ee4eab871f95" />
+
+<img width="1257" height="675" alt="image" src="https://github.com/user-attachments/assets/74a813ab-12e6-489c-875f-7ee3043a2c42" />
+
