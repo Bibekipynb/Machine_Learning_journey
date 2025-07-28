@@ -193,3 +193,12 @@ Face recognition aims to identify or verify individuals from images by comparing
 
 <img width="1257" height="675" alt="image" src="https://github.com/user-attachments/assets/74a813ab-12e6-489c-875f-7ee3043a2c42" />
 
+
+
+# Day 11
+
+## Triplet Loss
+
+Triplet Loss is a loss function commonly used in face recognition and metric learning tasks. It encourages a neural network to learn an embedding space where images of the same identity are closer together and images of different identities are farther apart. Each training sample is a triplet consisting of: an anchor image, a positive image (same identity), and a negative image (different identity). The loss minimizes the distance between the anchor and positive, while maximizing the distance between the anchor and negative by at least a predefined margin. This helps the model learn discriminative and compact feature representations for tasks like one-shot learning and verification.
+
+<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/133a39e7-573f-4d22-909b-682705ebdaa8" />
