@@ -1,4 +1,4 @@
-# 📘 Machine Learning and Deep Learning Daily
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/621e54be-d416-4759-ae09-45c759e4f072" /># 📘 Machine Learning and Deep Learning Daily
 
 ## 📌 Introduction
 
@@ -202,3 +202,13 @@ Face recognition aims to identify or verify individuals from images by comparing
 Triplet Loss is a loss function commonly used in face recognition and metric learning tasks. It encourages a neural network to learn an embedding space where images of the same identity are closer together and images of different identities are farther apart. Each training sample is a triplet consisting of: an anchor image, a positive image (same identity), and a negative image (different identity). The loss minimizes the distance between the anchor and positive, while maximizing the distance between the anchor and negative by at least a predefined margin. This helps the model learn discriminative and compact feature representations for tasks like one-shot learning and verification.
 
 <img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/133a39e7-573f-4d22-909b-682705ebdaa8" />
+
+
+
+# Day 12
+
+## Neural Style transfer
+
+Neural Style Transfer (NST) is a deep learning technique that blends the content of one image with the style of another to create a visually artistic output. It uses a pre-trained convolutional neural network (typically VGG19) to extract content features from a source image and style features (like colors, textures, and patterns) from a style image. The algorithm then optimizes a third image to minimize both content loss (difference from content image) and style loss (difference from style image). NST is widely used in AI art generation, allowing neural networks to recreate images in the style of famous painters like Van Gogh or Picasso.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/37be82c6-0828-4644-8d01-39db913001ec" />
