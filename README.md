@@ -1,5 +1,3 @@
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/621e54be-d416-4759-ae09-45c759e4f072" /># 📘 Machine Learning and Deep Learning Daily
-
 ## 📌 Introduction
 
 A few months ago, I completed the **Machine Learning Specialization** course. Now, I’m revisiting and revising those machine learning concepts, while also diving deeper into **deep learning**. I’ll be sharing my daily progress here as I go along.
