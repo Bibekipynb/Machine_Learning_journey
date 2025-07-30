@@ -210,3 +210,13 @@ Triplet Loss is a loss function commonly used in face recognition and metric lea
 Neural Style Transfer (NST) is a deep learning technique that blends the content of one image with the style of another to create a visually artistic output. It uses a pre-trained convolutional neural network (typically VGG19) to extract content features from a source image and style features (like colors, textures, and patterns) from a style image. The algorithm then optimizes a third image to minimize both content loss (difference from content image) and style loss (difference from style image). NST is widely used in AI art generation, allowing neural networks to recreate images in the style of famous painters like Van Gogh or Picasso.
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/37be82c6-0828-4644-8d01-39db913001ec" />
+
+
+
+# Day 13
+
+## What are deep ConvNets learning?
+
+Today I learned something really cool about how deep convolutional neural networks (ConvNets) actually work. Instead of just memorizing images, they learn in layers—starting with really simple things like edges and textures, then gradually moving on to more complex patterns like shapes and object parts. By the time you get to the deeper layers, the network can recognize entire objects like faces or animals. What surprised me is that the network figures out these features on its own during training—no one tells it what to look for. It also makes sense now why transfer learning works so well: the early layers learn general visual patterns that are useful for lots of different tasks, while only the later layers need to be retrained. It’s pretty amazing how these networks can build such a detailed understanding of images just from raw pixel data.
+
+<img width="1912" height="1079" alt="image" src="https://github.com/user-attachments/assets/d5eca5f8-c676-4e6e-b683-f23d8c9d8124" />
