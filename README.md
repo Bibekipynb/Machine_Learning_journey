@@ -220,3 +220,13 @@ Neural Style Transfer (NST) is a deep learning technique that blends the content
 Today I learned something really cool about how deep convolutional neural networks (ConvNets) actually work. Instead of just memorizing images, they learn in layers—starting with really simple things like edges and textures, then gradually moving on to more complex patterns like shapes and object parts. By the time you get to the deeper layers, the network can recognize entire objects like faces or animals. What surprised me is that the network figures out these features on its own during training—no one tells it what to look for. It also makes sense now why transfer learning works so well: the early layers learn general visual patterns that are useful for lots of different tasks, while only the later layers need to be retrained. It’s pretty amazing how these networks can build such a detailed understanding of images just from raw pixel data.
 
 <img width="1912" height="1079" alt="image" src="https://github.com/user-attachments/assets/d5eca5f8-c676-4e6e-b683-f23d8c9d8124" />
+
+
+
+# Day 14
+
+## Style cost function
+
+Today I learned about style cost function. The style cost function in Neural Style Transfer measures how well the generated image captures the style of a given style image. It does this by comparing the correlations between feature maps in both images, which are represented using something called a Gram matrix. These feature maps are taken from multiple layers of a pretrained convolutional neural network (like VGG). The Gram matrix captures the textures, colors, and patterns present in an image by looking at how different filters activate together. To compute the style cost, the algorithm calculates the Gram matrices of both the style image and the generated image at several chosen layers, then measures the squared difference between them. This difference tells us how similar the styles are. The overall style cost is obtained by summing the losses from each layer, often with weights to control their influence. Minimizing this style cost during training helps the generated image adopt the style characteristics—like brush strokes or color patterns—of the style image.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/42cc790d-0e43-4f75-898b-1dafb6ba552d" />
