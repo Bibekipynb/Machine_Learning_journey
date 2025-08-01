@@ -230,3 +230,14 @@ Today I learned something really cool about how deep convolutional neural networ
 Today I learned about style cost function. The style cost function in Neural Style Transfer measures how well the generated image captures the style of a given style image. It does this by comparing the correlations between feature maps in both images, which are represented using something called a Gram matrix. These feature maps are taken from multiple layers of a pretrained convolutional neural network (like VGG). The Gram matrix captures the textures, colors, and patterns present in an image by looking at how different filters activate together. To compute the style cost, the algorithm calculates the Gram matrices of both the style image and the generated image at several chosen layers, then measures the squared difference between them. This difference tells us how similar the styles are. The overall style cost is obtained by summing the losses from each layer, often with weights to control their influence. Minimizing this style cost during training helps the generated image adopt the style characteristics—like brush strokes or color patterns—of the style image.
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/42cc790d-0e43-4f75-898b-1dafb6ba552d" />
+
+
+
+# Day 15
+
+## 1D and 3D Generalizations
+
+1D and 3D convolutions are generalizations of the standard 2D convolution used in image processing, adapted to work with different types of data. A 1D convolution is typically used for sequential data like time series, audio signals, or text. It operates along a single spatial or temporal dimension and is useful for detecting local patterns in sequences, such as repeated structures or temporal dependencies. On the other hand, a 3D convolution is used when the data has three spatial dimensions, such as volumetric data in medical imaging (like MRI or CT scans) or video data where time is treated as the third dimension alongside height and width. In 3D convolution, the filter slides over height, width, and depth, allowing the model to capture spatial and temporal patterns simultaneously. Both of these generalizations help convolutional networks adapt to different types of structured data beyond just 2D images.
+
+<img width="1331" height="745" alt="image" src="https://github.com/user-attachments/assets/bc7f368b-f202-4f4f-ab19-d93e3ae4efd2" />  <img width="1343" height="669" alt="image" src="https://github.com/user-attachments/assets/9d1ec5ce-517e-4709-aee2-48a34b7d7b98" />
+
