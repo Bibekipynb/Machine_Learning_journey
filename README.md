@@ -250,3 +250,14 @@ Today I learned about style cost function. The style cost function in Neural Sty
 In the last week of the CNN course in the Deep Learning Specialization, I reviewed how Neural Style Transfer works by combining the content of one image with the style of another. A key part of this is the content cost function, which helps the generated image preserve the structure of the original content image. Instead of comparing pixel values, it compares feature activations from a pretrained CNN (like VGG-19), ensuring the high-level content remains similar. This content cost is combined with style cost to guide the generation process using a total cost function.
 
 <img width="1732" height="949" alt="image" src="https://github.com/user-attachments/assets/59bde3a1-733a-46aa-abc3-0c4b5021b776" />    <img width="1909" height="994" alt="image" src="https://github.com/user-attachments/assets/3063963a-9003-4bd0-b980-6daf18196460" />
+
+
+
+# Day 17
+
+## Face Verification and Binary Classification
+
+Today I learned the difference between face verification and binary classification and how they are connected in deep learning tasks. Face verification is the process of determining whether two facial images belong to the same person. It doesn't try to recognize who the person is (like face recognition does), but simply checks if the identities match. Interestingly, this is a type of binary classification problem because the model’s output is just one of two options: either the faces match (1) or they don't (0). The model learns to compare two images and predict whether they are of the same individual by analyzing facial features and their similarities. This task often uses architectures like Siamese networks, which are designed to compare pairs of inputs and learn a similarity score. So in essence, face verification applies binary classification in a very specific and meaningful contex
+
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/77a8494d-5efa-4a23-966f-e2d3d9a031eb" />
+
